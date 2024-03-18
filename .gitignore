@@ -1,0 +1,16 @@
+venv/
+
+.ipynb_checkpoints
+*.ipynb
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode
+
+# RTC
+.jupyter_ystore.db
