@@ -1,4 +1,3 @@
-import spacy
 import es_core_news_sm
 nlp = es_core_news_sm.load()
 #Instalando bibliotecas necesarias

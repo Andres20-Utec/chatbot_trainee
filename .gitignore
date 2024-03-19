@@ -1,5 +1,7 @@
 venv/
 
+
+
 .ipynb_checkpoints
 *.ipynb
 
@@ -8,7 +10,7 @@ venv/
 __pycache__/
 *.py[cod]
 *$py.class
-
+test.py
 # VSCode
 .vscode
 
