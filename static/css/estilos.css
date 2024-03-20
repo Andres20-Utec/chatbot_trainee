@@ -1,3 +1,81 @@
+@font-face {
+  font-family: "Red-Hat-Display";
+  src: url("../fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Mukta_Mahee";
+  src: url("../fonts/Mukta_Mahee/MuktaMahee-Medium.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red-Hat-Display", sans-serif;
+}
+
+body {
+  background-color: #F6F5F5 !important;
+}
+
+.clr-bcp{
+  color: #012EA0;
+}
+
+.title-bcp{
+  font-family: "Mukta_Mahee", sans-serif;
+}
+
+
+
+.bg-bcp{
+  background: rgb(1,46,160);
+  background: linear-gradient(90deg, rgba(1,46,160,1) 60%, rgba(79,30,159,0.9) 78%, rgba(176,9,136,0.8) 88%, rgba(255,81,0,0.9) 95%);
+}
+
+section{
+  padding-top: 25px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2rem !important;
+  color: #F6F5F5 !important;
+  padding-top: 5px;
+}
+
+h2 {
+  padding-bottom: 16px;
+}
+
+.container ul {
+  padding-left: 15px;
+}
+
+ul li {
+  padding-bottom: 5px;
+  font-size: 1rem;
+  list-style-type: none;
+}
+
+.box-question {
+  padding: 25px 25px;
+  border: white 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(64, 103, 158, 0.3);
+}
+
+ol {
+  list-style: none;
+}
+
+
+.lista-principal-indice {
+  padding-left: 0;
+}
+
 #chatbot-container {
   position: fixed;
   bottom: 20px;
@@ -11,7 +89,7 @@
 }
 
 #chatbot-header {
-  background-color: #007bff;
+  background-color: rgb(1,46,160);
   color: white;
   padding: 10px;
   cursor: pointer;

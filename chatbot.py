@@ -1,3 +1,4 @@
+import spacy
 import es_core_news_sm
 nlp = es_core_news_sm.load()
 #Instalando bibliotecas necesarias
@@ -9,7 +10,6 @@ import jellyfish
 import nltk
 nltk.download('punkt')
 import warnings
-from glob import glob
 warnings.filterwarnings('ignore')
 
 #Función para encontrar la raiz de las palabras
@@ -87,7 +87,7 @@ def normalizar(texto):
 
 
 def obtener_lista_frases_normalizadas():
-    lista_documentos = glob("respuestas/*.txt")
+    lista_documentos = ["respuestas.txt"]
     documento_txt = ''
     for documento in lista_documentos:
         with open(documento, "r", encoding="utf-8") as archivo_txt:
