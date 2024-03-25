@@ -27,8 +27,6 @@ body {
   font-family: "Mukta_Mahee", sans-serif;
 }
 
-
-
 .bg-bcp{
   background: rgb(1,46,160);
   background: linear-gradient(90deg, rgba(1,46,160,1) 60%, rgba(79,30,159,0.9) 78%, rgba(176,9,136,0.8) 88%, rgba(255,81,0,0.9) 95%);
@@ -76,6 +74,8 @@ ol {
   padding-left: 0;
 }
 
+/*  */
+
 #chatbot-container {
   position: fixed;
   bottom: 20px;
@@ -84,7 +84,7 @@ ol {
   border: 1px solid #ddd;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 300px;
+  width: 350px;
   z-index: 1000;
 }
 
@@ -103,7 +103,7 @@ ol {
 }
 
 #chat-messages {
-  height: 200px;
+  height: 350px;
   overflow-y: auto;
   margin-bottom: 10px;
   border: 1px solid #ddd;

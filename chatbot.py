@@ -121,8 +121,8 @@ def respuesta_documento(pregunta):
     req_tfidf = flat[-2]
     return req_tfidf, lista_frases[diccionario[lista[idx]]]
 
-
-'''pregunta='funciones de un Data Scientist Leader según Manual de Gobierno de Modelos Analíticos de Auditoría'
+'''
+pregunta='¿Define las soluciones de soporte de tipo visualización según la Guía Metodológica de Auditoría Continua, Data y Analítica de Datos?'
 print('Tokens Pregunta: ', normalizar(pregunta))
 respuesta = respuesta_documento(pregunta)
 print('Tokens Respuesta: ', normalizar(respuesta[1]))
